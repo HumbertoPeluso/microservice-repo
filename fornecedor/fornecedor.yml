@@ -1,9 +1,10 @@
 spring:
-    datasource:
-      password: 1234
-      username: root
-      url: jdbc:mysql://localhost:3306/fornecedor
-      jpa:
-        show-sql: true
-        hibernate:
-          ddl-auto: create
+  datasource:
+    username: 1234
+    password: root
+    url: jdbc:mysql://localhost:3306/fornecedor
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
