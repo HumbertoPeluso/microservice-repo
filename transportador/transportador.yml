@@ -8,5 +8,5 @@ spring:
     hibernate:
       jdbc:
         time_zone = UTC
-      ddl-auto: update
+      ddl-auto: create
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
